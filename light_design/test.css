@@ -1,0 +1,235 @@
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+@font-face{
+	src: url(./font/digital-7.ttf);
+	font-family: LED;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#box{
+    position: absolute;
+    width: 450px;
+    height: 666px;
+    left: 580px;
+    top: 96px;
+    z-index: 3;
+    background: linear-gradient(3deg, #aaa0a0, rgba(170, 134, 248, 0) 180%);
+    box-sizing: border-box;
+    border-radius: 19px;
+    
+}
+.head_text span {
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 130px;
+    top: 30px;
+
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 5px 2px 4px rgb(203, 251, 251);
+    word-wrap: initial;
+    color: rgb(106, 94, 94);
+}
+.head_text a{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #000;
+}
+ 
+.fas.fa-angle-left{
+    position: absolute;
+    right: 88%;
+    color: hsl(0, 0%, 100%);
+    bottom: 88%;
+    font-size: 1.5em;
+
+}
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(203, 251, 251);
+    min-height: 100vh;
+     
+}
+/* ............................... */
+* {
+	box-sizing: border-box;
+}
+
+/*  body {
+	 background-color: #fafafa; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	transition: background 0.2s linear;
+}  */
+
+
+
+
+/* .bulb{
+    position: relative;
+    top: 90px;
+    left: 173px;
+    transform: translateX(-50%);
+    width: 33%;
+    height: 170px;
+    pointer-events: none;
+    background: url(bulb_off1.jpg  );
+    transition: 0.5s;
+}
+label input:checked ~ .bulb
+{
+    background: url(bulb_onn1.jpg);
+} */
+label input{
+    appearance: none;
+     
+}	
+ .devices .device_detail{
+	margin: 140px 20px 0px 20px;
+	height: 500px;
+	/*border: 1px solid red;*/
+	opacity: 0;
+	transition: 0.5s;
+}
+.device_detail .namedevice{
+	/*border: 1px solid blue;*/
+	height: 220px;
+	width: 100%;
+}
+
+.device_detail .device_image{
+	margin-left: 118px;
+		
+	width: 200px;
+	height: 200px;
+	/*border: 1px solid green;*/
+	margin-top: -200px;
+	padding: 172px 20px 0px 20px;
+}
+.device_image .top_lamp{
+	
+	position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(transparent 50%,#eee);
+    transform: translate(0px);
+    z-index: -1;
+	bottom: -16px;
+    left: 45px;
+}
+
+#set_lamp{
+   
+    position: absolute;
+	height: 0.1px;
+	width: 0.1px;
+    border-radius: 50%;
+    transform: translate(0px);
+    top: 48px;
+    left: 50px;
+    z-index: 5;
+
+}
+
+.device_detail .intensity {
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 30px;
+	margin-top: -15px;
+}
+.intensity p{
+	margin-top: 235px;
+	padding-left: 51px;
+	font-weight: bold;
+	float: left;
+	font-size: 17px;
+	color: #ffffff;
+	font-family: 'Arial';
+	font-style: italic;
+}
+.intensity input{
+	margin-top: 242px;
+	margin-left: 23px;
+	width: 290px;
+	cursor: pointer;
+}
+
+.device_detail .shades {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 30px;
+    margin-left: 44px;
+    margin-top: 259px;
+}
+.shades p{
+	margin-top: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+	float: left;
+	font-size: 17px;
+	color: #fff;
+	font-family: 'Arial';
+	font-style: italic;
+}
+.shades .color_pane{
+	margin-top: 0px;
+	margin-left: 62px;
+	width: 290px;
+	/*border: 1px solid red;*/
+	cursor: pointer;
+}
+.color_pane .color{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin: 5px 15px 15px 10px;
+	float: left;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-right: 17px;
+    width: 200px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-color: #52346b;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+
+
+/* Chấm tròn trên  thanh màu */
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #6c0d0d;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+}
+
+
+
+#bulb01 {
+    width: 107px;
+    height: 95px;
+    position: absolute;
+    top: 284px;
+    left: 760px;
+    z-index: 9;
+}

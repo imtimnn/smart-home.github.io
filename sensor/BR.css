@@ -1,0 +1,115 @@
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+@font-face{
+	src: url(./font/digital-7.ttf);
+	font-family: LED;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#box{
+    position: absolute;
+    width: 450px;
+    height: 666px;
+    left: 663px;
+    top: 96px;
+    z-index: 3;
+    background: rgb(119, 213, 234);
+    box-sizing: border-box;
+    border-radius: 19px;
+}
+body {
+    background-color: rgb(203, 251, 251);
+    text-align: center;
+}
+
+#maylanh {
+   
+    position: absolute;
+    top: 40px;
+    left: 95px;
+    color: bisque;
+  
+}
+h2 {
+    margin-top: 239px;
+    margin-left: 39px;
+    font-size: 25px;
+    color: #ffffff;
+}
+h3 {
+    margin-top: 27px;
+   margin-left: 45px;
+    font-size: 25px;
+    color: #ffffff;
+}
+#denId_01{
+    
+    position: absolute;
+    top: 419px;
+    left: 28px;
+
+}
+#denId_02{
+    
+    position: absolute;
+    top: 421px;
+    left: 253px;
+
+}
+
+#btnOnId_01{
+    
+    position: absolute;
+    top: 520px;
+    left: 210px;
+
+}
+#btnOffId_01{
+    
+    position: absolute;
+    top: 520px;
+    left: 238px;
+
+}
+
+#btnOnId_02{
+    
+    position: absolute;
+    top: 545px;
+    left: 210px;
+
+}
+#btnOffId_02{
+    
+    position: absolute;
+    top: 545px;
+    left: 238px;
+
+}
+.text_h a{
+    color: #000;
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.text_h span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 60px;
+    color: #bba139;
+    text-shadow: #f9f6f4;
+}
+#icon_doam {
+    position: absolute;
+    bottom:265px;
+    right: 281px;
+
+}
+#icon_nhietdo {
+    position: absolute;
+    bottom:334px;
+    right: 283px;
+}

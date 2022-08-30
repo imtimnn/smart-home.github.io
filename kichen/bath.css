@@ -1,0 +1,100 @@
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+@font-face{
+	src: url(./font/digital-7.ttf);
+	font-family: LED;
+}
+body{
+    background-color: rgb(203, 251, 251);
+    ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#box{
+    position: absolute;
+    width: 450px;
+    height: 666px;
+    left: 663px;
+    top: 96px;
+    z-index: 3;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 19px;
+}
+body {
+    color: red;
+    text-align: center;
+}
+
+#lvs {
+   
+    position: absolute;
+    top: 61px;
+    left: 42px;
+
+}
+h2 {
+    margin-top: 284px;
+    margin-left: -160px;
+    font-size: 25px;
+    color: #ffffff;
+}
+h3 {
+    margin-top: -29px;
+   margin-left: 257px;
+    font-size: 25px;
+    color: #ffffff;
+}
+#gas {
+   
+    position: absolute;
+    top: 61px;
+    left: 265px;
+
+}
+#denId_01{
+    
+    position: absolute;
+    top: 403px;
+    left: 145px;
+
+}
+#denId_02{
+    
+    position: absolute;
+    top: 403px;
+    left: 253px;
+
+}
+
+#btnOnId_01{
+    
+    position: absolute;
+    top: 520px;
+    left: 210px;
+
+}
+#btnOffId_01{
+    
+    position: absolute;
+    top: 520px;
+    left: 238px;
+
+}
+
+#btnOnId_02{
+    
+    position: absolute;
+    top: 545px;
+    left: 210px;
+
+}
+#btnOffId_02{
+    
+    position: absolute;
+    top: 545px;
+    left: 238px;
+
+}
